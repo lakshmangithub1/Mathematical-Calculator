@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.main-container {
+    background-color:#3266a8 ; 
+    height: 100vh; 
+    background-size: cover; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding-top: 15px;
+} 
+
+.calculator-card { 
+    background-color: white; 
+    
+   
+    border: 0px solid white; 
+    border-radius: 10px; 
+    display: flex; 
+    flex-direction: column; 
+    padding-left: 60px; 
+    padding-right: 60px; 
+    padding-bottom: 40px; 
+    padding-top: 20px;
+    
+} 
+
+input {
+    padding-left: 50px; 
+    padding-right: 50px; 
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    margin-bottom: 15px;  
+    align-self: stretch; 
+    width: 30vw;
+    
+} 
+.input_cont {
+    display: flex; 
+    flex-direction: row; 
+    
+}
+
+
+h1 {
+    align-self: center;
+}
+.numbers-row{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+} 
+
+h2{
+    background-color: darkgray; 
+    border: 0px solid darkgray; 
+    border-radius: 5px; 
+    padding: 25px;
+} 
+h3 {
+    background-color: darkgray; 
+    border: 0px solid darkgray; 
+    border-radius: 5px; 
+    padding: 25px; 
+    align-self: center; 
+    margin-left: 25px;
+} 
+
+@media (min-width:600px) {
+    .calculator-card {
+        padding-left: 40px; 
+        padding-right: 40px; 
+        padding-bottom: 10px; 
+        padding-top: 15px;
+    }
+    h2{
+        
+        padding: 40px;
+    }
+    
+}

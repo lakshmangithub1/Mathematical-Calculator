@@ -11,17 +11,17 @@
 } 
 
 .calculator-card { 
-    background-color: white; 
+    background-color: darkslategray; 
     
    
     border: 0px solid white; 
     border-radius: 10px; 
     display: flex; 
     flex-direction: column; 
-    padding-left: 60px; 
-    padding-right: 60px; 
-    padding-bottom: 40px; 
-    padding-top: 20px;
+    padding-left: 40px; 
+    padding-right: 40px; 
+    padding-bottom: 20px; 
+    padding-top: 10px;
     
 } 
 
@@ -32,7 +32,8 @@ input {
     padding-bottom: 15px; 
     margin-bottom: 15px;  
     align-self: stretch; 
-    width: 30vw;
+    width: 30vw; 
+    font-size: 25px;
     
 } 
 .input_cont {
@@ -68,10 +69,10 @@ h2{
 
 @media (min-width:600px) {
     .calculator-card {
-        padding-left: 40px; 
-        padding-right: 40px; 
-        padding-bottom: 10px; 
-        padding-top: 15px;
+        padding-left: 25px; 
+        padding-right: 25px; 
+        padding-bottom: 8px; 
+        padding-top: 10px;
     }
     h2{
         
